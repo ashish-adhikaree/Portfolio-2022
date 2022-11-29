@@ -4,10 +4,19 @@
 
 html,
 body {
+  background-color: black;
+  color: rgb(128,129,129);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-
+@layer components {
+ .socials-icon {
+  @apply transition-all duration-300 hover:scale-[1.1] hover:text-yellow-300
+ }
+ .navlinks{
+  @apply transition-all duration-200 hover:text-yellow-300
+ }
+}
