@@ -18,9 +18,12 @@ body {
   @apply transition-all duration-300 hover:scale-[1.1] hover:text-yellow-300
  }
  .navlinks{
-  @apply transition-all duration-200 hover:text-yellow-300
+  @apply transition-all duration-100 hover:text-yellow-300 border border-transparent py-2 px-4 rounded-full hover:border-yellow-300
  }
  .background-animation{
   @apply absolute border-[.5px] border-[rgba(128,129,129,.3)] animate-ping rounded-full
+ }
+ .title{
+  @apply text-3xl font-bold text-yellow-300 tracking-[20px]
  }
 }

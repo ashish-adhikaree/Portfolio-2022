@@ -1,5 +1,3 @@
-const { transferableAbortController } = require('util');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -28,6 +26,9 @@ module.exports = {
         },
         navLinksEntry : {
           from : {transform: 'translateY(-50px)'}
+        },
+        projectCardOverlay: {
+          from: {opacity: '0'}
         }
       },
       animation: {
@@ -35,9 +36,13 @@ module.exports = {
         'contact-btn-entry' : 'contactBtnEntry 1s ease',
         'descrip-entry' : 'descripEntry 1s ease',
         'avatar-entry' : 'avatarEntry 1s ease',
-        'navlinks-entry' : 'navLinksEntry 1s ease'
+        'navlinks-entry' : 'navLinksEntry 1s ease',
+        'projectcard-overlay' : 'projectCardOverlay .5s ease'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // ...
+    require('tailwind-scrollbar'),
+  ]
 }

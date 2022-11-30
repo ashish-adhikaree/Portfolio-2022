@@ -5,7 +5,7 @@ const Title = () => {
     <div className="text-center space-y-5">
       <Typewriter
         options={{
-          wrapperClassName: "text-3xl font-bold text-yellow-300",
+          wrapperClassName: "title tracking-normal",
           cursorClassName: "text-3xl text-gray-300 animate-pulse",
           loop: true,
         }}
