@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import Summary from '../components/Summary'
+import Summary from '../components/Summary/Summary'
+import ParticlesBackground from '../components/Particles/ParticlesBackground'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
+        <ParticlesBackground/>
         <Summary/>
         <div className='h-[700px] w-full'>
         </div>
