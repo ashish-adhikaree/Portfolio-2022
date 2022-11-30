@@ -1,8 +1,9 @@
 import Link from 'next/link'
 const Navbar = () => {
     return (
-        <div className="font-medium space-x-5 animate-navlinks-entry">
-            <Link href="#skills" className="navlinks">ABOUT</Link>
+        <div className="font-medium space-x-1 md:space-x-5 animate-navlinks-entry">
+            <Link href="#about" className="navlinks">ABOUT</Link>
+            <Link href="#" className="navlinks">EDUCATION</Link>
             <Link href="#skills" className="navlinks">SKILLS</Link>
             <Link href="#skills" className="navlinks">PROJECTS</Link>
             <Link href="#skills" className="navlinks">BLOGS</Link>

@@ -4,10 +4,11 @@ import Summary from '../components/Summary/Summary'
 import ParticlesBackground from '../components/Particles/ParticlesBackground'
 import Projects from '../components/Projects/projects'
 import Skills from '../components/Skills/Skills'
+import About from '../components/About/About'
 
 export default function Home() {
   return (
-    <div className='scroll-smooth'>
+    <div className=''>
       <Head>
         <title>ASHISH ADHIKARI</title>
         <meta name="description" content="Developed by Ashish" />
@@ -16,6 +17,7 @@ export default function Home() {
       <Layout>
         <ParticlesBackground/>
         <Summary/>
+        <About/>
         {/* <Projects/> */}
         <Skills/>
       </Layout>

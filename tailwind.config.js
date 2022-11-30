@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -39,6 +40,9 @@ module.exports = {
         'navlinks-entry' : 'navLinksEntry 1s ease',
         'projectcard-overlay' : 'projectCardOverlay .5s ease'
       },
+      gridTemplateColumns : {
+        '2' : '1fr 2fr'
+      }
     },
   },
   plugins: [

@@ -34,7 +34,7 @@ const Skills = () => {
         transition={{
           duration: 0.5,
         }}
-        className="title tracking-widest"
+        className="title"
       >
         SKILLS
       </motion.h1>

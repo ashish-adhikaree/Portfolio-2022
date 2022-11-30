@@ -5,22 +5,15 @@ const Title = () => {
     <div className="text-center space-y-5">
       <Typewriter
         options={{
+          strings: ["Hey, Ashish Adhikari here!", "Designer and Front-End Developer", "Mechanical Engineering Enthusiast"],
           wrapperClassName: "title tracking-normal",
           cursorClassName: "text-3xl text-gray-300 animate-pulse",
+          autoStart:true,
           loop: true,
         }}
-        onInit={(typewriter) => {
-          typewriter
-            .typeString("Hey, Ashish Adhikari here!")
-            .pauseFor(2500)
-            .deleteAll()
-            .typeString("Designer and Front-End Developer")
-            .deleteAll()
-            .pauseFor(2500)
-            .start();
-        }}
+        
       />
-      <p className="text-xl font-medium animate-descrip-entry">I design and develop user-friendly and eye-catching websites.</p>
+      <p className="text-xl font-medium animate-descrip-entry">Mech engineering enthusiast with extreme <br/>love for computer science and business</p>
     </div>
   );
 };
