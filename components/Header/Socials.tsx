@@ -3,7 +3,7 @@ import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs'
 
 const Socials = () => {
     return (
-    <div className='flex space-x-10 items-center'>
+    <div className='flex space-x-10 items-center animate-socials-entry'>
         <Link href="https://github.com/ashish-adhikaree" className='socials-icon' title='Github Profile'>
             <BsGithub size={25}/>
         </Link>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
-const Avatar = () => {
+const Avatar = ({width, animate}:{width:any, animate: boolean}) => {
     return (
-        <Image className="rounded-full" alt='profile' width={200} height={50} src='/profile.png'/>
+        <Image className={animate ? 'animate-avatar-entry rounded-full' : 'rounded-full'} alt='profile' width={width} height={150} src='/profile.png'/>
     )
 }
 

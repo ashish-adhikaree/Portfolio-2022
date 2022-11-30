@@ -12,6 +12,8 @@ export default function Home() {
       </Head>
       <Layout>
         <Summary/>
+        <div className='h-[700px] w-full'>
+        </div>
       </Layout>
     </div>
   )

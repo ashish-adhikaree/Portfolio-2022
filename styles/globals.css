@@ -12,11 +12,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
 @layer components {
  .socials-icon {
   @apply transition-all duration-300 hover:scale-[1.1] hover:text-yellow-300
  }
  .navlinks{
   @apply transition-all duration-200 hover:text-yellow-300
+ }
+ .background-animation{
+  @apply absolute border-[.5px] border-[rgba(128,129,129,.3)] animate-ping rounded-full
  }
 }

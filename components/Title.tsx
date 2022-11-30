@@ -20,7 +20,7 @@ const Title = () => {
             .start();
         }}
       />
-      <p className="text-xl font-medium">I design and code user-friendly and eye-catching websites.</p>
+      <p className="text-xl font-medium animate-descrip-entry">I design and develop user-friendly and eye-catching websites.</p>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Socials from "./Socials"
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-between sticky top-0 p-10 bg-black">
+        <div className="sticky top-0 z-50 flex items-center justify-between p-10 bg-black overflow-x-hidden">
             <Socials/>
             <ContactIcon/>
         </div>
