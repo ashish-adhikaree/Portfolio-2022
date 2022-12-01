@@ -20,9 +20,9 @@ const About = () => {
           transition={{
             duration: 1,
           }}
-          className="self-center"
+          className="self-center flex items-center justify-center"
         >
-          <Avatar animate={false} width={200} />
+          <Avatar animate={false} width={300} />
         </motion.div>
         <div className="nself-center text-2xl">
           <motion.h1
@@ -37,7 +37,7 @@ const About = () => {
             transition={{
               duration: 0.5,
             }}
-            className="title tracking-wide mb-10"
+            className="title tracking-wide mb-5"
           >
             Who am I?
           </motion.h1>
