@@ -12,14 +12,14 @@ export default function Home() {
       <Head>
         <title>ASHISH ADHIKARI</title>
         <meta name="description" content="Developed by Ashish" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/profile.png" />
       </Head>
       <Layout>
         <ParticlesBackground/>
         <Summary/>
         <About/>
-        {/* <Projects/> */}
         <Skills/>
+        <Projects/>
       </Layout>
     </div>
   )
