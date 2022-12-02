@@ -1,4 +1,4 @@
-import SkillIcon from "./SkillIcon";
+import SkillIcon from "./skillIcon";
 import { motion } from "framer-motion";
 import SectionHeader from "../sectionHeader";
 

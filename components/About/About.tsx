@@ -1,4 +1,4 @@
-import Avatar from "../Avatar";
+import Avatar from "../avatar";
 import { motion } from "framer-motion";
 
 const About = () => {

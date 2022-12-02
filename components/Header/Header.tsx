@@ -1,5 +1,5 @@
-import ContactIcon from "./ContactIcon"
-import Socials from "./Socials"
+import ContactIcon from "./contactIcon"
+import Socials from "./socials"
 
 const Header = () => {
     return (

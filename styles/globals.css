@@ -26,4 +26,7 @@ body {
  .title{
   @apply text-3xl font-bold text-yellow-300 tracking-[15px]
  }
+ .horizontal-list{
+  @apply flex justify-start md:justify-center space-x-5 p-2 w-full max-w-screen-sm sm:max-w-screen-md md:max-w-screen-md overflow-x-scroll scrollbar-thin scrollbar-track-[#292929] scrollbar-thumb-yellow-200
+ }
 }
