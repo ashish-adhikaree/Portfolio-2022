@@ -7,7 +7,7 @@ import { Project } from "../../typedeclaration";
 const Projects = () => {
   let [Projects, setProjects] = useState<Project[]>([]);
   axios
-    .get("http://localhost:3000/api/projects")
+    .get(`${process.env.BASE_URL}/api/projects`)
     .then((res) => {
       setProjects(res.data);
     })

@@ -12,3 +12,4 @@ export interface School {
   grade: string;
   year: string;
 }
+

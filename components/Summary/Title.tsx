@@ -8,6 +8,8 @@ const Title = () => {
           strings: ["Hey, Ashish Adhikari here!", "Designer and Front-End Developer", "Mechanical Engineering Enthusiast"],
           wrapperClassName: "title tracking-normal",
           cursorClassName: "text-3xl text-gray-300 animate-pulse",
+          delay:  10,
+          deleteSpeed: 20,
           autoStart:true,
           loop: true,
         }}

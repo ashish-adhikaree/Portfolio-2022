@@ -17,6 +17,8 @@ const Skills = () => {
     "illustrator",
     "premierepro",
     "figma",
+    "graphql",
+    "strapi"
   ];
   return (
     <div

@@ -1,7 +1,15 @@
-import {BsFillArrowUpCircleFill} from 'react-icons/bs' 
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 const ToTopButton = () => {
-        return <BsFillArrowUpCircleFill className=' bg-yellow text-yellow-300 text-4xl cursor-pointer absolute bottom-5 right-5' title="Go To Top"/>
-
+const goToTop = () => {
 }
+  return (
+    <a href = '#summary'>
+        <BsFillArrowUpCircleFill onClick={goToTop}
+      className=" bg-yellow text-purple-500 text-4xl cursor-pointer absolute bottom-5 right-5 z-[500] rounded-full"
+      title="Go To Top"
+    />
+    </a>
+  );
+};
 
-export default ToTopButton
+export default ToTopButton;
