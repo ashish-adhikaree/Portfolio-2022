@@ -7,7 +7,7 @@ import SectionHeader from "../sectionHeader";
 const Education = () => {
   let [schools, setSchools] = useState<School[]>([]);
   axios
-    .get(`${process.env.BASE_URL}/api/education`)
+    .get('api/education')
     .then((res) => {
       setSchools(res.data);
     })
